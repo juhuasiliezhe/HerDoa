@@ -90,9 +90,7 @@ mybatis:
 
 mapper:
     mappers:
-        - tk.mybatis.springboot.util.MyMapper
-    not-empty: false
-    identity: MYSQL
+        - MyMapperdentity: MYSQL
 
 pagehelper:
     helperDialect: mysql
